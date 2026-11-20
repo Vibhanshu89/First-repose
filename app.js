@@ -9,10 +9,10 @@ class AssessmentApp {
 
     // State storage for candidate and responses (Defaulted to requested credentials)
     this.candidateData = {
-      regNo: '12315158',
-      name: 'Utsav Kumar',
-      email: 'utsavkr47@gmail.com',
-      contact: '+91 9876543210',
+      regNo: '12310643',
+      name: 'Piyush Kumar',
+      email: 'piyushk8117@gmail.com',
+      contact: '+91 6388789668',
       securityQuestion: 'school',
       securityAnswer: 'Saint Xavier School'
     };
@@ -179,7 +179,7 @@ class AssessmentApp {
     const updateDrawerCandidateName = () => {
       const nameEl = document.getElementById('drawer-candidate-name');
       if (nameEl) {
-        nameEl.textContent = 'amit raj';
+        nameEl.textContent = 'Piyush Kumar';
       }
     };
 
